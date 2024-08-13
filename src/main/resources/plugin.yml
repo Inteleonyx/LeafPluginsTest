@@ -1,0 +1,14 @@
+name: LeafTest
+version: '1.0'
+main: me.inteleonyx.leaftest.Main
+api-version: '1.21'
+authors: [ Inteleonyx ]
+permissions:
+  leaftest.reload:
+    description: "Reloads the server"
+    default: op
+commands:
+  leaftest:
+    description: "This is a command"
+  tpbow:
+    description: "Command2"
